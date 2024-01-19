@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/linearLayout1">
+
+    <ImageButton
+        android:src="@drawable/beginner"
+        android:scaleType="fitXY"
+        android:background="@drawable/beginner"
+        android:layout_width="match_parent"
+        android:layout_height="180.0dp"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="25dp"
+        android:id="@+id/imageButton1" />
+
+    <ImageButton
+        android:src="@drawable/intermediatte"
+        android:scaleType="fitXY"
+        android:background="@drawable/intermediatte"
+        android:layout_width="match_parent"
+        android:layout_height="180.5dp"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/imageButton2" />
+
+    <ImageButton
+        android:src="@drawable/advanced"
+        android:scaleType="fitXY"
+        android:background="@drawable/advanced"
+        android:layout_width="match_parent"
+        android:layout_height="180.5dp"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/imageButton3" />
+    <Button
+        android:text="Back to home"
+        android:layout_gravity="center"
+        android:layout_width="395dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/black"
+        android:textColor="@android:color/white"
+        android:id="@+id/button1"
+        app:cornerRadius="20dp" />
+</LinearLayout>

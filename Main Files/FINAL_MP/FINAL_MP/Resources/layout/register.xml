@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/relativeLayout1">
+    <LinearLayout
+        android:orientation="vertical"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/linearLayout1">
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:orientation="vertical"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:id="@+id/linearLayout1">
+            <TextView
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="30dp"
+                android:text="REGISTER"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:gravity="center"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:id="@+id/textView1" />
+        </LinearLayout>
+        <EditText
+            android:layout_width="310dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:hint="Fullname"
+            android:layout_marginBottom="5dp"
+            android:id="@+id/editFullname" />
+        <EditText
+            android:layout_width="310dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:hint="Username"
+            android:layout_marginBottom="5dp"
+            android:id="@+id/editUsername" />
+        <EditText
+            android:layout_width="310dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:hint="Age"
+            android:id="@+id/editAge" />
+        <EditText
+            android:layout_width="310dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:hint="Height(cm)"
+            android:id="@+id/editHeight" />
+        <EditText
+            android:layout_width="310dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:hint="Weight (Kg)"
+            android:id="@+id/editWeight" />
+        <EditText
+            android:layout_width="310dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:hint="Password"
+            android:id="@+id/editPassword" />
+        <EditText
+            android:layout_width="310dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:hint="Confirm Password"
+            android:id="@+id/editConfirm" />
+        <LinearLayout
+            android:layout_marginTop="40dp"
+            android:orientation="horizontal"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:id="@+id/linearLayout2">
+            <Button
+                android:text="BACK"
+                android:layout_width="150.0dp"
+                android:layout_height="50.0dp"
+                android:layout_marginRight="5dp"
+                android:textColor="@android:color/white"
+                android:backgroundTint="@android:color/black"
+                app:cornerRadius="10dp"
+                android:id="@+id/butBack" />
+            <Button
+                android:text="CONFIRM"
+                android:layout_width="150.0dp"
+                android:layout_height="50.0dp"
+                android:textColor="@android:color/white"
+                android:backgroundTint="@android:color/black"
+                app:cornerRadius="10dp"
+                android:id="@+id/butConfirm"/>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

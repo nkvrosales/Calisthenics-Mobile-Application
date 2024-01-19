@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/relativeLayout1">
+    <LinearLayout
+        android:orientation="vertical"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="30dp"
+        android:background="@android:color/white"
+        android:id="@+id/linearLayout1">
+        <ImageView
+            android:src="@drawable/calisthenics"
+            android:layout_width="match_parent"
+            android:layout_height="241.0dp"
+            android:layout_marginVertical="20dp"
+            android:id="@+id/imageView1" />
+        <TextView
+            android:text="Discipline Beats Motivation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif"
+            android:textSize="14dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="50dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@android:color/black"
+            android:id="@+id/textView1" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="70dp"
+            android:id="@+id/linearLayout2">
+            <Button
+                android:text="Start"
+                android:textColor="@android:color/white"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:id="@+id/btnStart"
+                android:textSize="15dp"
+                android:backgroundTint="@android:color/black"
+                app:cornerRadius="20dp"/>
+            <Button
+                android:text="Reports"
+                android:textColor="@android:color/white"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:id="@+id/btnReports"
+                android:textSize="15dp"
+                android:backgroundTint="@android:color/black"
+                app:cornerRadius="20dp" />
+            <Button
+                android:text="Log out"
+                android:textColor="@android:color/white"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:id="@+id/btnLogout"
+                android:textSize="15dp"
+                android:backgroundTint="@android:color/black"
+                app:cornerRadius="20dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
